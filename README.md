@@ -70,6 +70,20 @@ source venv/bin/activate  # For MacOS
 pip install -r requirements.txt
 ```
 
+### Model Downloads
+
+The YOLO models are not included in this repository due to their size. Please download them manually:
+
+1. Download YOLOv8x model:
+   ```bash
+   wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x.pt -P models/pretrained/detection/yolo/
+   ```
+
+2. Download YOLOv8n model (optional, for testing):
+   ```bash
+   wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt -P models/pretrained/detection/yolo/
+   ```
+
 ### 🚀 Usage Guide
 
 #### Basic Operation
@@ -396,6 +410,20 @@ source venv/bin/activate  # MacOS
 pip install -r requirements.txt
 ```
 
+### 模型下载
+
+YOLO 模型由于体积较大，不包含在仓库中。请手动下载：
+
+1. 下载 YOLOv8x 模型：
+   ```bash
+   wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x.pt -P models/pretrained/detection/yolo/
+   ```
+
+2. 下载 YOLOv8n 模型（可选，用于测试）：
+   ```bash
+   wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt -P models/pretrained/detection/yolo/
+   ```
+
 ### 🚀 使用指南
 
 #### 基本操作
@@ -655,5 +683,3 @@ violin_mocap_test/
    - 平衡模式：节省电池
    - 性能模式：最大速度
    - 质量模式：最佳追踪
-
-```
