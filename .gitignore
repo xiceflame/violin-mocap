@@ -37,6 +37,7 @@ logs/
 *.log
 violin_mocap.log
 models/*.pt
+models/pretrained/detection/yolo/*.pt
 *.pth
 *.onnx
 
