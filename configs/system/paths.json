@@ -1,0 +1,32 @@
+{
+    "models": {
+        "pretrained": {
+            "pose": {
+                "mediapipe": "models/pretrained/pose/mediapipe"
+            },
+            "detection": {
+                "yolo": {
+                    "base": "models/pretrained/detection/yolo",
+                    "yolov8n": "models/pretrained/detection/yolo/yolov8n.pt",
+                    "yolov8x": "models/pretrained/detection/yolo/yolov8x.pt"
+                }
+            }
+        },
+        "trained": {
+            "pose": "models/trained/pose",
+            "detection": "models/trained/detection"
+        }
+    },
+    "data": {
+        "raw": "data/raw",
+        "processed": "data/processed",
+        "annotations": "data/annotations",
+        "dataset": "data/raw/dataset"
+    },
+    "configs": {
+        "models": "configs/models",
+        "training": "configs/training",
+        "system": "configs/system"
+    },
+    "logs": "logs"
+}

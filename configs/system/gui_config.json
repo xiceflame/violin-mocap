@@ -1,0 +1,44 @@
+{
+    "model_settings": {
+        "model_type": "YOLOv8n",
+        "conf_threshold": 0.5,
+        "iou_threshold": 0.45,
+        "device": "auto"
+    },
+    "camera_settings": {
+        "camera_index": 0,
+        "resolution": {
+            "width": 1280,
+            "height": 720
+        },
+        "fps": 30,
+        "buffer_size": 3
+    },
+    "training_settings": {
+        "epochs": 100,
+        "batch_size": 16,
+        "learning_rate": 0.01,
+        "use_pretrained": true,
+        "use_multi_gpu": false,
+        "data_augmentation": true,
+        "validation_split": 0.2
+    },
+    "annotation_settings": {
+        "auto_save": true,
+        "save_interval": 300,
+        "highlight_color": "#FF0000",
+        "keypoint_size": 3
+    },
+    "performance_settings": {
+        "mode": "balanced",
+        "gpu_enabled": true,
+        "frame_skip": 0,
+        "resolution_scale": 1.0
+    },
+    "output_settings": {
+        "save_video": true,
+        "save_keypoints": true,
+        "output_format": "mp4",
+        "compression_quality": 95
+    }
+}

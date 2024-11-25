@@ -1,0 +1,12 @@
+{
+    "auto_select_camera": false,
+    "default_camera_id": 0,
+    "fps": 30,
+    "resolution": [1280, 720],
+    "yolo_conf": 0.25,
+    "yolo_iou": 0.45,
+    "model_paths": {
+        "violin_detector": "models/violin_detector.pt",
+        "violin_keypoints": "models/violin_keypoints.pt"
+    }
+}
